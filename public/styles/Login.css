@@ -1,0 +1,37 @@
+html,
+body {
+  background-color: cornflowerblue;
+}
+
+img {
+  max-height: 350px;
+  max-width: 100%;
+}
+
+.main,
+.back {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.back {
+  border-radius: 25px;
+  background-color: gray;
+  width: 380px;
+  height: 550px;
+  top: calc(50%);
+}
+
+.main {
+  width: 300px;
+  height: 390px;
+  top: calc(50% - 50px);
+  text-align: center;
+  z-index: 1;
+}
+.main input {
+  margin: 10px 0px;
+}
+
+/*# sourceMappingURL=Login.css.map */
